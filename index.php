@@ -6,7 +6,7 @@
     if ( isset( $_POST['Submit1'] ) ) {
         $username = $_POST['username'];
         $password = $_POST['password'];
-        //print("<b>Your entered username is:</b> ". $username. " <b><br>Your entered password is: </b>". $password);
+        
 
         // add users
         switch ($username.$password)
